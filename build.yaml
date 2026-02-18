@@ -1,6 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: eyelash_sofle_central_dongle dongle_display
+    shield: eyelash_sofle_central_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: sofle_central_dongle
@@ -13,3 +13,4 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
   - board: seeeduino_xiao_ble
+    shield: settings_reset
