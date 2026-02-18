@@ -20,7 +20,7 @@ C
     };
 };
 
-/*
+
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
@@ -58,4 +58,4 @@ C
         prechargep = <0x22>;
 	};
 };
-*/
+
