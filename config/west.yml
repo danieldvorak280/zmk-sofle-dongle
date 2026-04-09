@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/M165437 #new entry
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho  
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
