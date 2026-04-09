@@ -15,9 +15,6 @@ manifest:
     - name: carrefinho                            # <--- add this
       url-base: https://github.com/carrefinho  
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
