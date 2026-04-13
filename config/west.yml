@@ -17,19 +17,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: main
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
       remote: carrefinho                          # <---
-      revision: main   
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: v0.3
+      revision: feat/new-status-screens
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
-      revision: v0.3.0 #new entry
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+      revision: main #new entry
   self:
     path: config
